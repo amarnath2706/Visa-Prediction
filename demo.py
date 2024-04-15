@@ -9,4 +9,5 @@ try:
     a = 20/"2"
 
 except Exception as e:
+    logging.info(e)
     raise visaException(e, sys) from e
